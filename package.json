@@ -1,0 +1,23 @@
+{
+  "name": "socketserver",
+  "version": "1",
+  "description": "chat server",
+  "main": "1",
+  "repository": "www",
+  "author": "Artem",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev:server": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.7",
+    "mongoose-private-paths": "^0.7.0",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.4.1"
+  }
+}
